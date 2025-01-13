@@ -29,7 +29,7 @@ if exercise == 1:
 
 
     def main():
-        window = MyGame(640, 480, "Drawing Example")
+        _ = MyGame(640, 480, "Drawing Example")
         arcade.run()
 
 
@@ -66,7 +66,7 @@ if exercise == 2:
             arcade.draw_circle_filled(self.cercle_x, self.cercle_y, self.rayon_cercle, random.choice(self.list_color))
 
     def main():
-        window = MyGame(500, 400, "Drawing Example")
+        _ = MyGame(500, 400, "Drawing Example")
         arcade.run()
 
     main()
